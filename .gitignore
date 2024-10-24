@@ -1,0 +1,68 @@
+# top level scraps
+scraps.py
+log.txt
+boot_out.txt
+
+# top level folders
+lib/*
+!lib/.gitkeep
+examples/*
+!examples/.gitkeep
+official_uf2/*
+!official_uf2.gitkeep
+official_libraries/*
+!official_libraries/.gitkeep
+old/*
+
+# wifi config
+wifi.json
+wifi.toml
+wifi.*
+settings.toml
+*/wifi.json
+*/wifi.toml
+*/wifi.*
+*/settings.toml
+
+# subfolder scraps
+*/scraps.py
+*/log.txt
+
+# boot events
+*/boot_out.txt
+boot_out.txt
+*/.fseventsd/*
+.fseventsd/*
+*/.metadata_never_index
+.metadata_never_index
+
+# subfolder folders
+*/lib/*
+!*/lib/.gitkeep
+*/examples/*
+!*/examples/.gitkeep
+# CircuitPython 9 added an sd/ dir by default to represent the SD card
+*/sd/*
+!*/sd/.gitkeep
+!*/sd/placeholder.txt
+
+# Ignore IDE specific files and fragments from OS mounting as drive
+.fseventsd/
+*/.fseventsd/
+
+.Trash-1000/
+*/.Trash-1000/
+<<<<<<< HEAD
+.Trash*
+.Trash*/
+.Trash-*/
+*/.Trashes
+.Trashes
+*/.Trashes
+
+*.swp
+
+System*Volume*Information/*
+*/System*Volume*Information/*
+
+.vscode/
